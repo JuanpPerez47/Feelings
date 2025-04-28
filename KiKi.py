@@ -63,7 +63,7 @@ with st.expander("📚 FUNCIONAMIENTO"):
 
 # 📄 Cuadro de texto para ingresar la descripción
 st.markdown("<div class='text-box'>", unsafe_allow_html=True)
-texto_entrada = st.text_area("✏️ Escribe tu texto aquí:", height=200, placeholder="Me siento feliz de estar aquí...")
+texto_entrada = st.text_area("✏️ Escribe aquí como te sientes:", height=200, placeholder="Me siento feliz de estar aquí...")
 st.markdown("</div>", unsafe_allow_html=True)
 
 # Diccionario de emociones
