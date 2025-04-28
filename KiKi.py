@@ -55,7 +55,7 @@ model = AutoModelForSequenceClassification.from_pretrained(model_path, use_safet
 tokenizer = AutoTokenizer.from_pretrained(model_path)
 
 # 📖 Instrucciones
-with st.expander("📚 ¿Cómo funciona esta herramienta?"):
+with st.expander("📚 FUNCIONAMIENTO"):
     st.markdown("""
     - ✍️ Escribe un **texto breve** describiendo cómo te sientes.
     - 🔎 Presiona **Analizar** y descubre el sentimiento predominante.
@@ -128,5 +128,5 @@ if st.button("🚀 Analizar Texto"):
         st.warning("⚠️ Por favor, escribe cómo te sientes.")
 
 # 🎨 Pie de página decorativo
-st.markdown("<hr><center>Creado con ❤️ usando Streamlit</center>", unsafe_allow_html=True)
+st.markdown("<hr><center>Creado con ❤️ por Mí , soporta check</center>", unsafe_allow_html=True)
 
