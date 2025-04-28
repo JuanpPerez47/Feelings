@@ -63,4 +63,3 @@ if st.button("📤 Analizar Texto"):
         st.markdown(f"<center><h4>🎭 Emoción detectada: <strong>{emocion_predicha.capitalize()}</strong></h4></center>", unsafe_allow_html=True)
     else:
         st.warning("⚠️ Por favor, escribe cómo te sientes.")
-
